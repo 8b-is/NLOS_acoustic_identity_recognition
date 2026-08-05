@@ -1,0 +1,5 @@
+Representative data and metadata license
+
+The representative anonymized recordings and tabular metadata in the
+dataset/ directory are provided under the Creative Commons Attribution
+4.0 International license (CC BY 4.0).
