@@ -1,0 +1,14 @@
+# Data and Code Availability
+
+The Python source code required to reproduce the reported experiments and
+analyses, together with detailed dataset metadata, file-naming definitions,
+object-configuration-based LOSO information, representative anonymized
+multichannel acoustic recordings, and reproducibility documentation, is
+publicly available in the GitHub repository:
+
+https://github.com/nevzatolgun/NLOS_acoustic_identity_recognition
+
+The associated Zenodo record is available at:
+
+https://doi.org/DOI_TO_BE_ADDED
+

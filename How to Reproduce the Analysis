@@ -1,0 +1,39 @@
+1. Clone the GitHub repository:
+
+   git clone https://github.com/nevzatolgun/NLOS_acoustic_identity_recognition.git
+
+2. Open a terminal or Anaconda Prompt in the repository directory.
+
+3. Create and activate a Python environment. Python 3.10 or 3.11 is
+   recommended.
+
+4. Install the core dependencies:
+
+   pip install -r requirements.txt
+
+5. Install PyTorch separately when the deep-learning baselines will be run.
+   Select the PyTorch build appropriate for the available CPU, CUDA version,
+   and GPU.
+
+6. Set the acoustic data location.
+
+   NLOS_AUDIO_ROOT must point to the directory recursively containing the
+   authorized wall-reflection WAV files. The complete raw dataset is not
+   included in the public repository.
+
+   NLOS_OUTPUT_ROOT may optionally be set to a preferred output directory.
+   Otherwise the publication package writes outputs under outputs/.
+
+7. Spyder/F5 workflow
+
+   Set code/ as the working directory, open the required run_*.py file, and
+   press F5.
+
+8. Command-line workflow
+
+   cd code
+   python run_classical_loso.py
+   python run_synchronized_window_ablation.py
+   python run_deep_learning_baselines.py
+   python run_cross_material_analysis.py
+   python run_human_empty_validation.py

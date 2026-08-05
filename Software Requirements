@@ -1,0 +1,23 @@
+Recommended environment
+
+Python 3.10 or later
+Python 3.11 recommended
+
+Core Python packages
+
+numpy
+pandas
+scipy
+librosa
+joblib
+scikit-learn
+matplotlib
+
+Additional package for deep-learning baselines
+
+PyTorch with a build appropriate for the available CPU/GPU and CUDA environment
+
+Optional development environment
+
+Spyder through Anaconda or Miniconda. The run_*.py scripts can be opened and
+executed directly with F5 after setting code/ as the working directory.

@@ -1,0 +1,17 @@
+The study dataset contains multichannel acoustic measurements from 10 anonymous
+subjects recorded in a controlled airborne NLOS laboratory environment.
+
+Experimental factors
+
+Subjects: 10 anonymous identities (S1-S10; 5 male and 5 female)
+Object configurations: 10 scene codes (0-9)
+Postures: standing, sitting, and squatting
+Orientations: front, back, right, and left
+Excitation conditions: T1-T8 and simultaneous multi-transmitter M
+Microphone channels used by the analysis: 8 synchronized channels
+Sampling frequency: 44.1 kHz
+
+A fixed subject, object configuration, posture, and orientation defines one
+classifier example. For the T1-T8+M configuration, features from nine
+multichannel WAV files recordings and eight microphone channels are concatenated.
+

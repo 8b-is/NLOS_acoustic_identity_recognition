@@ -1,0 +1,51 @@
+The code/ directory contains the final Python methodology used in the study.
+
+Main entry points
+
+run_classical_loso.py
+Runs the classical object-configuration-based leave-one-scene-out experiments
+using Random Forest, Extra Trees, and an SGD-based linear SVM.
+
+run_synchronized_window_ablation.py
+Compares independent microphone-channel secondary-window selection with a
+synchronized multichannel alternative under the same LOSO folds, T-set,
+features, and Random Forest classifier.
+
+run_deep_learning_baselines.py
+Runs the raw-signal, spectrogram, and time-averaged STFT deep-learning baselines
+under the shared object-configuration LOSO protocol. The implemented models are
+1D-CNN, 2D-CNN, 2D-CNN-MultiStream, LSTM, BiLSTM, LSTM-STFT, and BiLSTM-STFT.
+
+run_cross_material_analysis.py
+Performs single-source cross-material transfer and leave-one-material-out
+analyses using the shared dataset, preprocessing, feature, and label modules.
+
+run_human_empty_validation.py
+Performs the matched human-present versus human-empty secondary-window contrast
+analysis and generates the associated numerical outputs and figures.
+
+plotting_scripts/
+Contains plot-only utilities that generate confusion matrices, leave-one-
+material-out figures, and single-source transfer heatmaps from existing result
+CSV files without retraining the models.
+
+Core package modules
+
+config.py: sampling, window, STFT, LPVG, path, cache, and seed settings.
+metadata.py: anonymous subject labels, scene names, T-sets, and feature names.
+parsing.py: canonical WAV filename parser.
+preprocessing.py: independent and synchronized secondary-window selection,
+pre-emphasis, and per-segment peak normalization.
+features.py: STFT, LPVG d=0/1/2, fusion, and feature-matrix construction.
+dataset.py: WAV discovery, sample assembly, and raw-segment caching.
+feature_cache.py: feature-cache generation and validation.
+models.py: RF, ET, and SGD-based linear SVM definitions.
+protocols.py: object-configuration LOSO fold generation.
+evaluation.py: fold-level model training, prediction, and metric calculation.
+reporting.py: numerical result, classification-report, and confusion-matrix
+writers.
+visualization.py: publication-style confusion-matrix utilities.
+window_ablation.py: synchronized-window ablation implementation.
+deep_learning.py: PyTorch deep-learning baselines.
+cross_material.py: cross-material transfer and LOMO analyses.
+human_empty_validation.py: matched human-empty control analysis.

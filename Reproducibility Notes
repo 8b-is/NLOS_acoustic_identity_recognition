@@ -1,0 +1,13 @@
+
+The object-configuration-based LOSO protocol holds out one of the 10 object
+configurations as the external test fold while the room and sensor geometry
+remain fixed. The held-out fold is not used for model fitting, preprocessing
+statistics, scaling, early stopping, or parameter selection.
+
+Random Forest uses 200 trees. Extra Trees uses 300 trees. The SGD-based linear
+SVM uses hinge loss, L2 regularization, balanced class weights, a maximum of
+5,000 iterations, and training-fold-only standardization.
+
+Deep-learning early stopping uses an internal validation subset derived only
+from the external training fold. The external LOSO test fold remains unused
+until final evaluation.
