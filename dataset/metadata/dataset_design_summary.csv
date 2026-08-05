@@ -1,0 +1,11 @@
+﻿field,value,notes
+subjects,10,Anonymous public labels S1-S10; 5 male and 5 female
+object_configurations,10,Scene codes 0-9
+postures,3,"Standing, sitting, squatting"
+orientations,4,"Front, back, right, left"
+sequential_transmitters,8,T1-T8
+simultaneous_transmitter_condition,1,Acquisition code C; reported as M
+microphone_channels_analyzed,8,Synchronized channels
+sampling_rate_hz,44100,All WAV recordings
+secondary_echo_window_samples,1024,Non-overlapping adaptive-energy window selection
+classifier_examples,1200,10 subjects x 10 scenes x 3 postures x 4 orientations
