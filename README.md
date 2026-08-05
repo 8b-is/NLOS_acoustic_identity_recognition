@@ -1,6 +1,6 @@
 # NLOS_acoustic_identity_recognition
 
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.DOI_TO_BE_ADDED 
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.21802627 
 
 ## Topological–Spectral Fusion of Secondary Acoustic Echoes for Identity Recognition in Non-Line-of-Sight Environments
 
@@ -79,5 +79,5 @@ Please cite the associated article and Zenodo record when using this repository.
 ```text
 Olgun, N. (2026). NLOS Acoustic Identity Recognition: Source Code and
 Reproducibility Materials, version 1.0.0. Zenodo.
-https://doi.org/10.5281/zenodo.DOI_TO_BE_ADDED
+https://doi.org/10.5281/zenodo.21802627
 ```
